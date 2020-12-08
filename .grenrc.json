@@ -1,0 +1,11 @@
+{
+    "dataSource": "issues",
+    "prefix": "",
+    "onlyMilestones": false,
+    "ignoreTagsWith": ["duplicate", "invalid"],
+    "groupBy": {
+        "新功能": ["enhancement", "New Feature"],
+        "缺陷修复": ["bug"]
+    },
+    "changelogFilename": "CHANGELOG.md"
+}
