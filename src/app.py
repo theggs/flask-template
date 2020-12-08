@@ -4,7 +4,7 @@ from router.api import main as api_route
 
 
 def create_app():
-    app = Flask(__name__, static_url_path='/', static_folder='ui_dist')
+    app = Flask(__name__)
     app.secret_key = Config.secret_key
     app = register_blueprints(app)
     app = configure_app(app)
